@@ -141,18 +141,29 @@ header {
     text-align: center; /*centering the What we do header*/
 }
 
-.intro h2 { /*decorating or editing what the header will look like*/
+.intro p {
+    margin: 0 auto;
+}
+
+/*Starting the What You Do*/
+.steps {
+    text-align: center;
+    background:#fce138;
+}
+
+.section-title {/*calling on the whole section to have these dimensions- think of this as a macro*/
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;/*this takes any border or wording in a container and makes it approximately fit the declarations of
-    padding and margins written above*/
 }
 
-.intro p {
-    margin: 0 auto;
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
 }
 
