@@ -135,3 +135,24 @@ header {
     font-size: 16px;
 }
 /*Hero Styles End*/
+
+/*What we Do Start*/
+.intro {
+    text-align: center; /*centering the What we do header*/
+}
+
+.intro h2 { /*decorating or editing what the header will look like*/
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;/*this takes any border or wording in a container and makes it approximately fit the declarations of
+    padding and margins written above*/
+}
+
+.intro p {
+    margin: 0 auto;
+}
+
