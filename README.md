@@ -12,3 +12,5 @@ https://icozuna.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Isaiah Ozuna
+
+### ©️2019 Run Buddy, Inc 
