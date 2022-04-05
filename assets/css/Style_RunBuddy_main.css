@@ -57,17 +57,16 @@ header nav ul {
       padding: 40px 35px;
       justify-content: space-between;
       flex-wrap: wrap;
+      display: flex;
   }
 
   footer h2 {
-      display: flex;
       color: #024e76;
       font-size: 30px;
       margin: 0;
   }
 
   footer div {
-      display: flex;
       line-height: 1.5;
       text-align:right;
   }
@@ -83,25 +82,40 @@ header nav ul {
 /*Hero Style Start*/
 .hero {
     background-image:url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3
+    ;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 /*Hero Style End*/
 
 /*Hero-form Start*/
 .hero-form {
     background-color: #fce138;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     padding: 20px;
-    width: 500px;
     color:#024e76;
     border-style: solid;
     border-width: 3px;
     border-color: #024e76;
+    width: 40%;
+    margin: 3.5%;
     /*Or you could list border style, width and color next to eachother as notated below.
     border: solid 3px #024e76; */
 }
@@ -139,27 +153,26 @@ header nav ul {
 /*Hero Styles End*/
 
 /*What we Do Start*/
-.intro {
-    text-align: center; /*centering the What we do header*/
-}
+
 
 .intro p {
     margin: 0 auto;
+    text-align: center;
 }
 
 /*Starting the What You Do*/
 .steps {
-    text-align: center;
     background:#fce138;
 }
 
 .section-title {/*calling on the whole section to have these dimensions- think of this as a macro*/
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -170,32 +183,57 @@ header nav ul {
     border-color: #39a6b2;
 }
 
-.steps div {
-    margin-bottom: 80px;
-}
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
     color:#024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-.steps span {/*anywhere you have put <span> </span> quotes around, the CSS will change the font size of the selected span*/
-    font-size: 38px;
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+.step-text {
+    flex: 12;
+}
+
 
 .trainers {
-    text-align: center;
+    
 }
 .trainer {
     width: 900px;
@@ -225,6 +263,10 @@ header nav ul {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -243,7 +285,7 @@ header nav ul {
 
 /*Reach out styling start*/
 .contact {
-    text-align: center;
+  
     background: #024e76;
 }
 
