@@ -41,6 +41,7 @@ header nav ul {
       padding: 10px 15px;
       font-weight: lighter;
       font-size: 1.55vw;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   header h1 {
@@ -49,6 +50,7 @@ header nav ul {
       color:#fce138;
       margin: 0;
      display: flex;
+     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   footer {
@@ -104,6 +106,7 @@ header nav ul {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /*Hero Style End*/
 
@@ -349,6 +352,11 @@ header nav ul {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+}
+
+.some-class {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 10px 15px black;
 }
 
 /*MEDIA QUERIES ORDER MATTERS. ALWAYS PLACE THE LARGEST ONE FIRST THEN WORK TO THE SMALLEST WHEN 
